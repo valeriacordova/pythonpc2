@@ -7,4 +7,4 @@ def contar(numero, digito):
     return cantidad
 
 cantidad = contar(numero, digito)
-print(f"Cantidad de veces {digito} en el número: {cantidad}")
+print(f"Cantidad de veces que se repite el digito {digito} en el número es: {cantidad}")
