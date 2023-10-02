@@ -9,12 +9,11 @@ while True:
         numero = int(input("Ingrese el número: "))
         listanumeros.append(numero)
         if numero % 2 == 0:
-            pares += 1  # Si es par, incrementamos el contador de pares
+            pares += 1  
         else:
-            impares += 1  # Si es impar, incrementamos el contador de impares
+            impares += 1  
     else:
         print("Respuesta no válida. Por favor, responda 'SI' o 'NO'.")
-
 # Mostramos los resultados
 print("Numeros:",listanumeros)
 print("Cantidad de números pares:", pares)
